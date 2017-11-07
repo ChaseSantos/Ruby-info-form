@@ -6,7 +6,7 @@ answer.capitalise!
 print "What city do you live in? "
 city=gets.chomp
 answer.capitalise!
-print "What state do you live in? Make sure to shorten this answer! (EG IN for Infiana)"
+print "What state do you live in? Make sure to shorten this answer! (Example: IN for Indiana)"
 state=gets.chomp
 answer.upcase!
 puts "Your name is #{first_name} #{last_name}!"
